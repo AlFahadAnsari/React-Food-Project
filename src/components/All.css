@@ -1,0 +1,162 @@
+*{
+    text-transform: capitalize;
+}
+
+#bg{
+    background-image: url('../img/burger.jpg');
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    background-attachment: local;
+    object-fit: fill;
+    background-position: center;
+    
+    
+}
+
+
+
+
+#fixNav{
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+    z-index: 1;
+ 
+}
+
+
+.tags{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    height: 70vh;
+    
+
+}
+
+.main{
+    display: block;
+    text-align: center;
+  
+}
+
+.navh1{
+    color: green;
+    font-size: 60px;
+    margin: 20px;
+}
+.navpara{
+    color: white;
+}
+
+#hover:hover{
+    background-color: green;
+    width: 120px;
+    padding: 10px;
+}
+
+#hover{
+    width: 75px;
+    
+}
+#hoveratag{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+                /*   types   */
+
+#team-img{
+   width: 100%;
+  transition: 0.2s;
+   
+}
+
+#team-img:hover{
+ 
+    opacity: calc(40%);
+
+
+   
+}
+
+
+
+
+                         /*   menu   */
+
+
+#menu{
+    background-color: #dff7d8f6;
+}
+
+#round{
+    height: 170px;
+    width:fit-content ;
+    cursor: pointer;
+    transition: 2s;
+}
+
+
+#menutext{
+     text-align: justify;
+}
+
+
+#round:hover{
+    width: 300px ;
+    height: 200px;
+     
+    
+}
+
+
+
+            /*  RATING section */
+
+
+
+#team-img2{
+    height:fit-content ;
+    width: 200px;
+    transition: 1s;
+    
+}
+
+#team-img2:hover{
+    height:fit-content ;
+    width: 300px;
+    
+}
+
+
+                /*  contact */
+
+
+
+#Contact{
+    background-color: #dff7d8f6;
+}
+
+#inputAddress{
+    height: 13rem;
+}
+
+textarea{
+    resize: none;
+}
+
+
+
+
+.footer {
+    background-color: rgb(25,135,84,1);
+    color: white;
+    padding: 20px 0;
+    width: 100%;
+  }
